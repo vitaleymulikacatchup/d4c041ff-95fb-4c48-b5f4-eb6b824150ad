@@ -47,7 +47,7 @@ export default function LandingPage() {
           description="Discover Bakteria, where every cup tells a story of passion, precision, and premium quality. From bean to brew, we celebrate the art of coffee."
           tag="Premium Coffee Roastery"
           background={{ variant: "animated-grid" }}
-          videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771505618512-apxd95pq.mp4"
+          imageSrc="https://img.b2bpic.net/free-vector/digital-technology-with-hexagonal-shapes_1017-29805.jpg?id=12320003"
           imageAlt="Bakteria Coffee Roastery Setup"
           buttons={[
             { text: "Explore Our Menu", href: "menu" },
@@ -63,7 +63,7 @@ export default function LandingPage() {
           description="Founded in 2018"
           subdescription="Bakteria Coffee Roastery"
           icon={Coffee}
-          imageSrc="https://img.b2bpic.net/free-photo/bar-concept-with-barman-making-coffee_23-2147798029.jpg"
+          videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771409435358-37r0e5p4.mp4"
           imageAlt="Roastery Interior"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
