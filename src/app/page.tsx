@@ -47,7 +47,7 @@ export default function LandingPage() {
           description="Discover Bakteria, where every cup tells a story of passion, precision, and premium quality. From bean to brew, we celebrate the art of coffee."
           tag="Premium Coffee Roastery"
           background={{ variant: "animated-grid" }}
-          imageSrc="https://img.b2bpic.net/free-photo/barista-near-glass-coffee-beans-black-coffee-machine-ambiental-coffee-shop_1268-20260.jpg"
+          videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771505618512-apxd95pq.mp4"
           imageAlt="Bakteria Coffee Roastery Setup"
           buttons={[
             { text: "Explore Our Menu", href: "menu" },
