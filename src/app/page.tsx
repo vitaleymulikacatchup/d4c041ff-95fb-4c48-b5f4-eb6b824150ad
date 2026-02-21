@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
+import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
@@ -44,13 +44,18 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboardScroll
+        <HeroSplitDualMedia
+          tag="Premium Coffee Roastery"
           title="Experience Crafted Coffee Excellence"
           description="Discover Bakteria, where every cup tells a story of passion, precision, and premium quality. From bean to brew, we celebrate the art of coffee."
-          tag="Premium Coffee Roastery"
           background={{ variant: "animated-grid" }}
-          imageSrc="https://img.b2bpic.net/free-vector/digital-technology-with-hexagonal-shapes_1017-29805.jpg?id=12320003"
-          imageAlt="Bakteria Coffee Roastery Setup"
+          mediaItems={[
+            { imageSrc: "https://img.b2bpic.net/free-photo/coffee-beans-glass-jar-black-background-closeup-selective-focus-vertical-frame-roasting-preparing-coffee-vertical-frame_166373-2289.jpg", imageAlt: "Coffee beans in a jar" },
+            { imageSrc: "https://img.b2bpic.net/free-photo/high-angle-barista-leveling-coffee-level-machine-cup_23-2148523052.jpg", imageAlt: "Barista preparing coffee" }
+          ]}
+          mediaAnimation="slide-up"
+          rating={5}
+          ratingText="Loved by coffee enthusiasts"
           buttons={[
             { text: "Explore Our Menu", href: "/#menu" },
             { text: "Learn More", href: "/#about" }
