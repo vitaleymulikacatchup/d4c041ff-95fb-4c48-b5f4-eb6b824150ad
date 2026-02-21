@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -10,6 +10,14 @@ import TestimonialCardTwelve from '@/components/sections/testimonial/Testimonial
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import { Coffee, Instagram, Twitter, Facebook } from "lucide-react";
+
+const navItems = [
+  { name: "Home", id: "/" },
+  { name: "About", id: "/#about" },
+  { name: "Menu", id: "/#menu" },
+  { name: "Brew Process", id: "/#process" },
+  { name: "Contact", id: "/#contact" }
+];
 
 export default function LandingPage() {
   return (
@@ -28,15 +36,7 @@ export default function LandingPage() {
       <div id="nav" data-section="nav">
         <NavbarStyleCentered
           brandName="Bakteria"
-          navItems={[
-            { name: "Home", id: "/" },
-            { name: "About", id: "/#about" },
-            { name: "Menu", id: "/#menu" },
-            { name: "Brew Process", id: "/#process" },
-            { name: "Blog", id: "/blog" },
-            { name: "Shop", id: "/shop" },
-            { name: "Contact", id: "/#contact" }
-          ]}
+          navItems={navItems}
           button={{
             text: "Order Now",            href: "/#contact"
           }}
@@ -52,8 +52,8 @@ export default function LandingPage() {
           imageSrc="https://img.b2bpic.net/free-vector/digital-technology-with-hexagonal-shapes_1017-29805.jpg?id=12320003"
           imageAlt="Bakteria Coffee Roastery Setup"
           buttons={[
-            { text: "Explore Our Menu", href: "menu" },
-            { text: "Learn More", href: "about" }
+            { text: "Explore Our Menu", href: "/#menu" },
+            { text: "Learn More", href: "/#about" }
           ]}
         />
       </div>
@@ -66,7 +66,6 @@ export default function LandingPage() {
           subdescription="Bakteria Coffee Roastery"
           icon={Coffee}
           videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771409435358-37r0e5p4.mp4"
-          imageAlt="Roastery Interior"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
         />
