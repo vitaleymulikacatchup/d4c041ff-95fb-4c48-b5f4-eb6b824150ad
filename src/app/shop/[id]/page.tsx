@@ -86,14 +86,15 @@ export default function ProductPage({ params }: ProductPageProps) {
                         <NavbarStyleCentered
                             brandName="Bakteria"
                             navItems={[
-                                {"name":"Home","id":"/"},
-                                {"name":"About","id":"about"},
-                                {"name":"Menu","id":"menu"},
-                                {"name":"Brew Process","id":"process"},
-                                {"name":"Contact","id":"contact"},
-                                {"name":"Shop","id":"/shop"}
+                                { name: "Home", id: "/" },
+                                { name: "About", id: "/#about" },
+                                { name: "Menu", id: "/#menu" },
+                                { name: "Brew Process", id: "/#process" },
+                                { name: "Blog", id: "/blog" },
+                                { name: "Shop", id: "/shop" },
+                                { name: "Contact", id: "/#contact" }
                             ]}
-                            button={{ text: "Cart", onClick: () => setCartOpen(true) }}
+                            button={{ text: "Order Now", href: "/#contact" }}
                         />
                     </div>
                     <main className="min-h-screen flex items-center justify-center pt-20">
@@ -134,14 +135,15 @@ export default function ProductPage({ params }: ProductPageProps) {
                         <NavbarStyleCentered
                             brandName="Bakteria"
                             navItems={[
-                                {"name":"Home","id":"/"},
-                                {"name":"About","id":"about"},
-                                {"name":"Menu","id":"menu"},
-                                {"name":"Brew Process","id":"process"},
-                                {"name":"Contact","id":"contact"},
-                                {"name":"Shop","id":"/shop"}
+                                { name: "Home", id: "/" },
+                                { name: "About", id: "/#about" },
+                                { name: "Menu", id: "/#menu" },
+                                { name: "Brew Process", id: "/#process" },
+                                { name: "Blog", id: "/blog" },
+                                { name: "Shop", id: "/shop" },
+                                { name: "Contact", id: "/#contact" }
                             ]}
-                            button={{ text: "Cart", onClick: () => setCartOpen(true) }}
+                            button={{ text: "Order Now", href: "/#contact" }}
                         />
                     </div>
                     <main className="min-h-screen flex items-center justify-center pt-20">
@@ -189,14 +191,15 @@ export default function ProductPage({ params }: ProductPageProps) {
                     <NavbarStyleCentered
                         brandName="Bakteria"
                         navItems={[
-                            {"name":"Home","id":"/"},
-                            {"name":"About","id":"about"},
-                            {"name":"Menu","id":"menu"},
-                            {"name":"Brew Process","id":"process"},
-                            {"name":"Contact","id":"contact"},
-                            {"name":"Shop","id":"/shop"}
+                            { name: "Home", id: "/" },
+                            { name: "About", id: "/#about" },
+                            { name: "Menu", id: "/#menu" },
+                            { name: "Brew Process", id: "/#process" },
+                            { name: "Blog", id: "/blog" },
+                            { name: "Shop", id: "/shop" },
+                            { name: "Contact", id: "/#contact" }
                         ]}
-                        button={{ text: "Cart", onClick: () => setCartOpen(true) }}
+                        button={{ text: "Order Now", href: "/#contact" }}
                     />
                 </div>
                 <div id="productDetailCard" data-section="productDetailCard">
