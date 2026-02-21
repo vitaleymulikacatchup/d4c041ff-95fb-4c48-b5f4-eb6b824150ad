@@ -30,12 +30,14 @@ export default function BlogPage() {
                         brandName="Bakteria"
                         navItems={[
                             { name: "Home", id: "/" },
-                            { name: "About", id: "about" },
-                            { name: "Menu", id: "menu" },
-                            { name: "Brew Process", id: "process" },
-                            { name: "Contact", id: "contact" }
+                            { name: "About", id: "/#about" },
+                            { name: "Menu", id: "/#menu" },
+                            { name: "Brew Process", id: "/#process" },
+                            { name: "Blog", id: "/blog" },
+                            { name: "Shop", id: "/shop" },
+                            { name: "Contact", id: "/#contact" }
                         ]}
-                        button={{ text: "Order Now", href: "contact" }}
+                        button={{ text: "Order Now", href: "/#contact" }}
                     />
                 </div>
 
