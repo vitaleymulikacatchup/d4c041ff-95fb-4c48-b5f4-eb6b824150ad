@@ -50,7 +50,7 @@ export default function LandingPage() {
           description="Discover Bakteria, where every cup tells a story of passion, precision, and premium quality. From bean to brew, we celebrate the art of coffee."
           background={{ variant: "animated-grid" }}
           mediaItems={[
-            { imageSrc: "https://img.b2bpic.net/free-photo/coffee-beans-glass-jar-black-background-closeup-selective-focus-vertical-frame-roasting-preparing-coffee-vertical-frame_166373-2289.jpg?_wi=1", imageAlt: "Coffee beans in a jar" },
+            { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771505618512-apxd95pq.mp4", imageAlt: "Coffee beans in a jar" },
             { imageSrc: "https://img.b2bpic.net/free-photo/high-angle-barista-leveling-coffee-level-machine-cup_23-2148523052.jpg?_wi=1", imageAlt: "Barista preparing coffee" }
           ]}
           mediaAnimation="slide-up"
