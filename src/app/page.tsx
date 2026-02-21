@@ -50,8 +50,8 @@ export default function LandingPage() {
           description="Discover Bakteria, where every cup tells a story of passion, precision, and premium quality. From bean to brew, we celebrate the art of coffee."
           background={{ variant: "animated-grid" }}
           mediaItems={[
-            { imageSrc: "https://img.b2bpic.net/free-photo/coffee-beans-glass-jar-black-background-closeup-selective-focus-vertical-frame-roasting-preparing-coffee-vertical-frame_166373-2289.jpg", imageAlt: "Coffee beans in a jar" },
-            { imageSrc: "https://img.b2bpic.net/free-photo/high-angle-barista-leveling-coffee-level-machine-cup_23-2148523052.jpg", imageAlt: "Barista preparing coffee" }
+            { imageSrc: "https://img.b2bpic.net/free-photo/coffee-beans-glass-jar-black-background-closeup-selective-focus-vertical-frame-roasting-preparing-coffee-vertical-frame_166373-2289.jpg?_wi=1", imageAlt: "Coffee beans in a jar" },
+            { imageSrc: "https://img.b2bpic.net/free-photo/high-angle-barista-leveling-coffee-level-machine-cup_23-2148523052.jpg?_wi=1", imageAlt: "Barista preparing coffee" }
           ]}
           mediaAnimation="slide-up"
           rating={5}
@@ -86,13 +86,13 @@ export default function LandingPage() {
               id: "1",              name: "Ethiopian Yirgacheffe",              price: "$16",              variant: "Bright & Floral",              imageSrc: "https://img.b2bpic.net/free-photo/closeup-shot-brown-bag-with-red-coffee-beans-it_181624-18802.jpg",              imageAlt: "Ethiopian Yirgacheffe"
             },
             {
-              id: "2",              name: "Colombian Geisha",              price: "$18",              variant: "Smooth & Rich",              imageSrc: "https://img.b2bpic.net/free-photo/coffee-beans-glass-jar-black-background-closeup-selective-focus-vertical-frame-roasting-preparing-coffee-vertical-frame_166373-2289.jpg",              imageAlt: "Colombian Geisha"
+              id: "2",              name: "Colombian Geisha",              price: "$18",              variant: "Smooth & Rich",              imageSrc: "https://img.b2bpic.net/free-photo/coffee-beans-glass-jar-black-background-closeup-selective-focus-vertical-frame-roasting-preparing-coffee-vertical-frame_166373-2289.jpg?_wi=2",              imageAlt: "Colombian Geisha"
             },
             {
               id: "3",              name: "Sumatra Mandheling",              price: "$15",              variant: "Deep & Full-bodied",              imageSrc: "https://img.b2bpic.net/free-photo/coffee-beans-black-background-with-pralines_114579-16619.jpg",              imageAlt: "Sumatra Mandheling"
             },
             {
-              id: "4",              name: "Bacteria House Blend",              price: "$14",              variant: "Our Signature",              imageSrc: "https://img.b2bpic.net/free-photo/high-angle-barista-leveling-coffee-level-machine-cup_23-2148523052.jpg",              imageAlt: "Bacteria House Blend"
+              id: "4",              name: "Bacteria House Blend",              price: "$14",              variant: "Our Signature",              imageSrc: "https://img.b2bpic.net/free-photo/high-angle-barista-leveling-coffee-level-machine-cup_23-2148523052.jpg?_wi=2",              imageAlt: "Bacteria House Blend"
             }
           ]}
           gridVariant="uniform-all-items-equal"
