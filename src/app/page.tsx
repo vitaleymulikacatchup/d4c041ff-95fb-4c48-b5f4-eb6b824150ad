@@ -51,7 +51,7 @@ export default function LandingPage() {
           background={{ variant: "animated-grid" }}
           mediaItems={[
             { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771505618512-apxd95pq.mp4", imageAlt: "Coffee beans in a jar" },
-            { imageSrc: "https://img.b2bpic.net/free-photo/high-angle-barista-leveling-coffee-level-machine-cup_23-2148523052.jpg?_wi=1", imageAlt: "Barista preparing coffee" }
+            { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771684785214-9g6egt6v.mp4", imageAlt: "Barista preparing coffee" }
           ]}
           mediaAnimation="slide-up"
           rating={5}
